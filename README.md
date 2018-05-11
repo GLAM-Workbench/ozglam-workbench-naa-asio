@@ -1,15 +1,15 @@
 # OzGLAM data repository workbench
-## Series in the National Archives of Australia relating to the White Australia Policy
+## Series in the National Archives of Australia with content recorded by the Australian Security Intelligence Organisation (ASIO)
 
 **Please note this is experimental and unfinished. I'm still learning about the capabilities of Jupyter. Things might change radically!**
 
-This is a collection of [Jupyter](http://jupyter.org/) notebooks to help you explore and use data from the National Archives of Australia relating to the administration of the White Australia Policy. It's part of the bigger [OzGLAM workbench](https://github.com/wragge/ozglam-workbench) project.
+This is a collection of [Jupyter](http://jupyter.org/) notebooks to help you explore and use data from the National Archives of Australia relating to the Australian Security Intelligence Organisation (ASIO). It's part of the bigger [OzGLAM workbench](https://github.com/wragge/ozglam-workbench) project.
 
-This repository includes item-level metadata from 23 series harvested from the National Archives online database RecordSearch. The complete code for harvesting and processing the data is included, as are some examples of how the data can be analysed. The harvested metadata is available as CSV-formatted files (one for each series) in the `RecordSearch/data` directory.
+This repository includes item-level metadata from all 18 series in the National Archives of Australia that are listed on RecordSearch as including content recorded by ASIO. The complete code for harvesting and processing the data is included, as are some examples of how the data can be analysed. The harvested metadata is available as CSV-formatted files (one for each series) in the `RecordSearch/data` directory.
 
-To browse information about the harvested series start with the [summary of all harvested series notebook](https://nbviewer.jupyter.org/github/wragge/ozglam-workbench-naa-wap/blob/master/RecordSearch/Summary%20of%20all%20harvested%20series.ipynb) (this link will open using Jupyter's nbviewer). There you'll find a live version of the table below with links to individual series summaries and visualisations.
+To browse information about the harvested series start with the [summary of all harvested series notebook](https://nbviewer.jupyter.org/github/wragge/ozglam-workbench-naa-asio/blob/master/RecordSearch/Summary%20of%20all%20harvested%20series.ipynb) (this link will open using Jupyter's nbviewer). There you'll find a live version of the table below with links to individual series summaries and visualisations.
 
-[![Screen capture of summary table](https://dl.dropbox.com/s/btfz59wlqii9mrj/naa-wap-series.png)](https://nbviewer.jupyter.org/github/wragge/ozglam-workbench-naa-wap/blob/master/RecordSearch/Summary%20of%20all%20harvested%20series.ipynb)
+[![Screen capture of summary table](https://dl.dropbox.com/s/vhtkihktio3w2gw/naa-asio-series.png)](https://nbviewer.jupyter.org/github/wragge/ozglam-workbench-naa-asio/blob/master/RecordSearch/Summary%20of%20all%20harvested%20series.ipynb)
 
 
 ## Support me
@@ -27,8 +27,8 @@ You can view the contents on NBViewer or GitHub, but note that these will be sta
 If you have Jupyter installed, you can clone this repository, and then run Jupyter:
 
 ```
-git clone https://github.com/wragge/ozglam-workbench-naa-wap.git
-cd ozglam-workbench-naa-wap
+git clone https://github.com/wragge/ozglam-workbench-naa-asio.git
+cd ozglam-workbench-naa-asio
 jupyter notebook
 ```
 
@@ -36,6 +36,6 @@ jupyter notebook
 
 To use a live version without installing any software, try MyBinder:
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/wragge/ozglam-workbench-naa-wap/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/wragge/ozglam-workbench-asio-wap/master)
 
 MyBinder launches the notebooks in a custom computing environment with all the software you'll need pre-installed. But note that these environments aren't persistent, so you'll need to make sure you download any data you want to keep.
